@@ -1,0 +1,562 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.startScreen_mobilecontainer {
+	padding: 5px 10px 5px 10px;
+}
+/* btnBuy */
+#startScreen_btnBuy {
+
+}
+.ui-btn.startScreen_btnBuy {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegrid_8 */
+.startScreen_mobilegrid_8 {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 5px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_mobilegrid_8_wrapper {
+
+}
+.startScreen_mobilegrid_8 > tr > td {
+	vertical-align: top;
+}
+.startScreen_mobilegrid_8_row_0, .startScreen_mobilegrid_8_row_0 > td {
+	height: 15px
+}
+.startScreen_mobilegrid_8_row_1, .startScreen_mobilegrid_8_row_1 > td {
+	height: 30px
+}
+.startScreen_mobilegrid_8_row_2, .startScreen_mobilegrid_8_row_2 > td {
+	height: 20px
+}
+.startScreen_mobilegrid_8_row_3, .startScreen_mobilegrid_8_row_3 > td {
+	height: 15px
+}
+/* mobilegridcell_9 */
+.startScreen_mobilegridcell_9 {
+	height:15px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_21 */
+.startScreen_mobilelabel_21 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_10 */
+.startScreen_mobilegridcell_10 {
+	height:15px !important;
+	width:25%;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_22 */
+.startScreen_mobilelabel_22 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_13 */
+.startScreen_mobilegridcell_13 {
+	height:15px !important;
+	width:35%;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_23 */
+.startScreen_mobilelabel_23 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_11 */
+.startScreen_mobilegridcell_11 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_11 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtAvailAmt */
+.startScreen_txtAvailAmt {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_12 */
+.startScreen_mobilegridcell_12 {
+	height:30px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtTransactionCost */
+.startScreen_txtTransactionCost {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_14 */
+.startScreen_mobilegridcell_14 {
+	height:30px !important;
+	width:35%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtStockPrice */
+.startScreen_txtStockPrice {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_15 */
+.startScreen_mobilegridcell_15 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_15 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* label3 */
+.startScreen_label3 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_16 */
+.startScreen_mobilegridcell_16 {
+	height:20px !important;
+	width:25%;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_16 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* label2 */
+.startScreen_label2 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_17 */
+.startScreen_mobilegridcell_17 {
+	height:20px !important;
+	width:35%;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* label1 */
+.startScreen_label1 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_18 */
+.startScreen_mobilegridcell_18 {
+	height:15px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_18 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblAmtLeft */
+.startScreen_lblAmtLeft {
+	text-decoration: none; font-weight: normal; font-style: italic; color: #169808; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_19 */
+.startScreen_mobilegridcell_19 {
+	height:15px !important;
+	width:25%;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_19 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblTotalCost */
+.startScreen_lblTotalCost {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_20 */
+.startScreen_mobilegridcell_20 {
+	height:15px !important;
+	width:35%;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_20 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblNumShares */
+.startScreen_lblNumShares {
+	text-decoration: none; font-weight: bold; font-style: italic; color: #350eaf; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* btnSell */
+#startScreen_btnSell {
+
+}
+.ui-btn.startScreen_btnSell {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegrid_25 */
+.startScreen_mobilegrid_25 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_mobilegrid_25_wrapper {
+
+}
+.startScreen_mobilegrid_25 > tr > td {
+	vertical-align: top;
+}
+.startScreen_mobilegrid_25_row_0, .startScreen_mobilegrid_25_row_0 > td {
+	height: 20px
+}
+.startScreen_mobilegrid_25_row_1, .startScreen_mobilegrid_25_row_1 > td {
+	height: 30px
+}
+.startScreen_mobilegrid_25_row_2, .startScreen_mobilegrid_25_row_2 > td {
+	height: 20px
+}
+.startScreen_mobilegrid_25_row_3, .startScreen_mobilegrid_25_row_3 > td {
+	height: 30px
+}
+.startScreen_mobilegrid_25_row_4, .startScreen_mobilegrid_25_row_4 > td {
+	height: 20px
+}
+.startScreen_mobilegrid_25_row_5, .startScreen_mobilegrid_25_row_5 > td {
+	height: 30px
+}
+/* mobilegridcell_26 */
+.startScreen_mobilegridcell_26 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_26 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellNumShares */
+.startScreen_lblSellNumShares {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_27 */
+.startScreen_mobilegridcell_27 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_27 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellCost */
+.startScreen_lblSellCost {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_38 */
+.startScreen_mobilegridcell_38 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_38 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellPurchasedPrice */
+.startScreen_lblSellPurchasedPrice {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_28 */
+.startScreen_mobilegridcell_28 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_28 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtNumShares */
+.startScreen_txtNumShares {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_29 */
+.startScreen_mobilegridcell_29 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_29 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtSellCost */
+.startScreen_txtSellCost {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_39 */
+.startScreen_mobilegridcell_39 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_39 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtPurchasedPrice */
+.startScreen_txtPurchasedPrice {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_30 */
+.startScreen_mobilegridcell_30 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_30 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellGainPct */
+.startScreen_lblSellGainPct {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_31 */
+.startScreen_mobilegridcell_31 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_31 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellGainAmt */
+.startScreen_lblSellGainAmt {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_40 */
+.startScreen_mobilegridcell_40 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_40 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellTargetPrice */
+.startScreen_lblSellTargetPrice {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_32 */
+.startScreen_mobilegridcell_32 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_32 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtGainPct */
+.startScreen_txtGainPct {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_33 */
+.startScreen_mobilegridcell_33 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_33 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtGainAmt */
+.startScreen_txtGainAmt {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_41 */
+.startScreen_mobilegridcell_41 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_41 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtTargetPrice */
+.startScreen_txtTargetPrice {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_42 */
+.startScreen_mobilegridcell_42 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_42 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellPriceDiff */
+.startScreen_lblSellPriceDiff {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_43 */
+.startScreen_mobilegridcell_43 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_43 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_57 */
+.startScreen_mobilelabel_57 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_44 */
+.startScreen_mobilegridcell_44 {
+	height:20px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.startScreen_mobilegridcell_44 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSellNetGain */
+.startScreen_lblSellNetGain {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 2px 0px 0px 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_45 */
+.startScreen_mobilegridcell_45 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_45 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtPriceDiff */
+.startScreen_txtPriceDiff {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_46 */
+.startScreen_mobilegridcell_46 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_46 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblTransactionTotal */
+.startScreen_lblTransactionTotal {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_47 */
+.startScreen_mobilegridcell_47 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_47 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtNetGain */
+.startScreen_txtNetGain {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilefooter */
+.startScreen_mobilefooter {
+	min-height:38px;
+}
