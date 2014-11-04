@@ -1,0 +1,241 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.startScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* btnBuy */
+#startScreen_btnBuy {
+
+}
+.ui-btn.startScreen_btnBuy {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegrid_8 */
+.startScreen_mobilegrid_8 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_mobilegrid_8_wrapper {
+
+}
+.startScreen_mobilegrid_8 > tr > td {
+	vertical-align: top;
+}
+.startScreen_mobilegrid_8_row_0, .startScreen_mobilegrid_8_row_0 > td {
+	height: 15px
+}
+.startScreen_mobilegrid_8_row_1, .startScreen_mobilegrid_8_row_1 > td {
+	height: 30px
+}
+.startScreen_mobilegrid_8_row_2, .startScreen_mobilegrid_8_row_2 > td {
+	height: 30px
+}
+.startScreen_mobilegrid_8_row_3, .startScreen_mobilegrid_8_row_3 > td {
+	height: 15px
+}
+/* mobilegridcell_9 */
+.startScreen_mobilegridcell_9 {
+	height:15px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_21 */
+.startScreen_mobilelabel_21 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_10 */
+.startScreen_mobilegridcell_10 {
+	height:15px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_22 */
+.startScreen_mobilelabel_22 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_13 */
+.startScreen_mobilegridcell_13 {
+	height:15px !important;
+	width:35%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_23 */
+.startScreen_mobilelabel_23 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_11 */
+.startScreen_mobilegridcell_11 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_11 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtAvailAmt */
+.startScreen_txtAvailAmt {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_12 */
+.startScreen_mobilegridcell_12 {
+	height:30px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtTransactionCost */
+.startScreen_txtTransactionCost {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_14 */
+.startScreen_mobilegridcell_14 {
+	height:30px !important;
+	width:35%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtStockPrice */
+.startScreen_txtStockPrice {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_15 */
+.startScreen_mobilegridcell_15 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_15 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* label3 */
+.startScreen_label3 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_16 */
+.startScreen_mobilegridcell_16 {
+	height:30px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_16 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* label2 */
+.startScreen_label2 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_17 */
+.startScreen_mobilegridcell_17 {
+	height:30px !important;
+	width:35%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* label1 */
+.startScreen_label1 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_18 */
+.startScreen_mobilegridcell_18 {
+	height:15px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_18 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblAmtLeft */
+.startScreen_lblAmtLeft {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_19 */
+.startScreen_mobilegridcell_19 {
+	height:15px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_19 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblTotalCost */
+.startScreen_lblTotalCost {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_20 */
+.startScreen_mobilegridcell_20 {
+	height:15px !important;
+	width:35%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_20 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblNumShares */
+.startScreen_lblNumShares {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.startScreen_mobilefooter {
+	min-height:38px;
+}

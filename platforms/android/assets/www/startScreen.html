@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/style.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                if (navigator.userAgent.match(/iP/i))
+                {
+                    $(window).bind('orientationchange', function(event)
+                    {
+                        $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+                    }).trigger('orientationchange');
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/global.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="startScreen_mobileheader" class="startScreen_mobileheader">
+                <h1 dsid="mobileheader">
+                    Stock Buy &amp; Sell
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_mobilecontainer" name="mobilecontainer"
+            class="startScreen_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="startScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen.js">
+                </script>
+                <!-- btnBuy --><!--
+                --><a data-role="button" name="btnBuy" dsid="btnBuy" class="startScreen_btnBuy" id="startScreen_btnBuy"
+                data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                data-mini="false" data-theme="b" tabindex="1">
+                Buy
+                </a><!--
+                --><!-- mobilegrid_8 -->
+                <div class="startScreen_mobilegrid_8_wrapper" data-wrapper-for="mobilegrid_8">
+                    <table id="startScreen_mobilegrid_8" class="startScreen_mobilegrid_8" dsid="mobilegrid_8"
+                    name="mobilegrid_8" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:25%;" />
+                        <col style="width:35%;" />
+                        <tr class="startScreen_mobilegrid_8_row_0">
+                            <!-- mobilegridcell_9 -->
+                            <td id="startScreen_mobilegridcell_9" name="mobilegridcell_9" class="startScreen_mobilegridcell_9"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_21 -->
+                                    <div name="mobilelabel_21" id="startScreen_mobilelabel_21" dsid="mobilelabel_21"
+                                    data-role="appery_label" class="startScreen_mobilelabel_21">
+                                        Avail Amt:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_10 -->
+                            <td id="startScreen_mobilegridcell_10" name="mobilegridcell_10" class="startScreen_mobilegridcell_10"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_22 -->
+                                    <div name="mobilelabel_22" id="startScreen_mobilelabel_22" dsid="mobilelabel_22"
+                                    data-role="appery_label" class="startScreen_mobilelabel_22">
+                                        Cost:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_13 -->
+                            <td id="startScreen_mobilegridcell_13" name="mobilegridcell_13" class="startScreen_mobilegridcell_13"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_23 -->
+                                    <div name="mobilelabel_23" id="startScreen_mobilelabel_23" dsid="mobilelabel_23"
+                                    data-role="appery_label" class="startScreen_mobilelabel_23">
+                                        Stock Price:
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_mobilegrid_8_row_1">
+                            <!-- mobilegridcell_11 -->
+                            <td id="startScreen_mobilegridcell_11" name="mobilegridcell_11" class="startScreen_mobilegridcell_11"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- txtAvailAmt -->
+                                    <div data-role="fieldcontain" class="startScreen_txtAvailAmt ">
+                                        <input type="text" name="txtAvailAmt" dsid="txtAvailAmt" value="" placeholder="Avail $$$"
+                                        id="startScreen_txtAvailAmt" icon="false" tabindex="2" multiple data-theme="b" data-mini="false"
+                                        class="startScreen_txtAvailAmt" />
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_12 -->
+                            <td id="startScreen_mobilegridcell_12" name="mobilegridcell_12" class="startScreen_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- txtTransactionCost -->
+                                    <div data-role="fieldcontain" class="startScreen_txtTransactionCost ">
+                                        <input type="text" name="txtTransactionCost" dsid="txtTransactionCost" value=""
+                                        placeholder="Cost" id="startScreen_txtTransactionCost" tabindex="3" multiple data-theme="b"
+                                        class="startScreen_txtTransactionCost" />
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_14 -->
+                            <td id="startScreen_mobilegridcell_14" name="mobilegridcell_14" class="startScreen_mobilegridcell_14"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- txtStockPrice -->
+                                    <div data-role="fieldcontain" class="startScreen_txtStockPrice ">
+                                        <input type="text" name="txtStockPrice" dsid="txtStockPrice" value="" placeholder="Price"
+                                        id="startScreen_txtStockPrice" tabindex="4" multiple data-theme="b" class="startScreen_txtStockPrice"
+                                        />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_mobilegrid_8_row_2">
+                            <!-- mobilegridcell_15 -->
+                            <td id="startScreen_mobilegridcell_15" name="mobilegridcell_15" class="startScreen_mobilegridcell_15"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- label3 -->
+                                    <div name="label3" id="startScreen_label3" dsid="label3" data-role="appery_label"
+                                    class="startScreen_label3">
+                                        Amt Left:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_16 -->
+                            <td id="startScreen_mobilegridcell_16" name="mobilegridcell_16" class="startScreen_mobilegridcell_16"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- label2 -->
+                                    <div name="label2" id="startScreen_label2" dsid="label2" data-role="appery_label"
+                                    class="startScreen_label2">
+                                        Total Cost:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_17 -->
+                            <td id="startScreen_mobilegridcell_17" name="mobilegridcell_17" class="startScreen_mobilegridcell_17"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- label1 -->
+                                    <div name="label1" id="startScreen_label1" dsid="label1" data-role="appery_label"
+                                    class="startScreen_label1">
+                                        # of Shares:
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_mobilegrid_8_row_3">
+                            <!-- mobilegridcell_18 -->
+                            <td id="startScreen_mobilegridcell_18" name="mobilegridcell_18" class="startScreen_mobilegridcell_18"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblAmtLeft -->
+                                    <div name="lblAmtLeft" id="startScreen_lblAmtLeft" dsid="lblAmtLeft" data-role="appery_label"
+                                    class="startScreen_lblAmtLeft">
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_19 -->
+                            <td id="startScreen_mobilegridcell_19" name="mobilegridcell_19" class="startScreen_mobilegridcell_19"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblTotalCost -->
+                                    <div name="lblTotalCost" id="startScreen_lblTotalCost" dsid="lblTotalCost" data-role="appery_label"
+                                    class="startScreen_lblTotalCost">
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_20 -->
+                            <td id="startScreen_mobilegridcell_20" name="mobilegridcell_20" class="startScreen_mobilegridcell_20"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblNumShares -->
+                                    <div name="lblNumShares" id="startScreen_lblNumShares" dsid="lblNumShares" data-role="appery_label"
+                                    class="startScreen_lblNumShares">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="startScreen_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="startScreen_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>
